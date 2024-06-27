@@ -1,0 +1,663 @@
+[2024-06-27T11:46:03.402+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:03.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:03.403+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:03.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:03.405+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:03.404+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:03.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:03.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.018 seconds
+[2024-06-27T11:46:18.117+0000] {processor.py:161} INFO - Started process (PID=668) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:18.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:18.119+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:18.119+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:18.121+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:18.120+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:18.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:18.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.025 seconds
+[2024-06-27T11:46:20.140+0000] {processor.py:161} INFO - Started process (PID=669) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:20.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:20.154+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:20.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:20.157+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:20.156+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:20.158+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:20.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.041 seconds
+[2024-06-27T11:46:21.177+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:21.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:21.179+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:21.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:21.181+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:21.180+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:21.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:21.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.018 seconds
+[2024-06-27T11:46:23.214+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:23.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:23.215+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:23.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:23.216+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:23.216+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:23.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:23.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.020 seconds
+[2024-06-27T11:46:25.249+0000] {processor.py:161} INFO - Started process (PID=678) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:25.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:25.250+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:25.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:25.252+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:25.251+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:25.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:25.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.018 seconds
+[2024-06-27T11:46:40.406+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:40.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:40.414+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:40.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:40.416+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:40.415+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:40.416+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:40.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.024 seconds
+[2024-06-27T11:46:43.668+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:43.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:43.669+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:43.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:43.671+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:43.670+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:43.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:43.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.021 seconds
+[2024-06-27T11:46:46.989+0000] {processor.py:161} INFO - Started process (PID=733) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:46.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:46.990+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:46.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:46.991+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:46.991+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:46.992+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:47.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.021 seconds
+[2024-06-27T11:46:49.012+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:49.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:46:49.013+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:49.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:49.014+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:46:49.014+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:46:49.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:46:49.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.018 seconds
+[2024-06-27T11:47:19.076+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:47:19.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:47:19.079+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:47:19.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:47:19.081+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:47:19.081+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:47:19.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:47:19.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.022 seconds
+[2024-06-27T11:47:49.210+0000] {processor.py:161} INFO - Started process (PID=852) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:47:49.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:47:49.223+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:47:49.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:47:49.227+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:47:49.225+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:47:49.227+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:47:49.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.041 seconds
+[2024-06-27T11:48:19.300+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:48:19.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:48:19.312+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:48:19.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:48:19.316+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:48:19.315+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:48:19.317+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:48:19.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.037 seconds
+[2024-06-27T11:48:49.371+0000] {processor.py:161} INFO - Started process (PID=970) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:48:49.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:48:49.383+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:48:49.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:48:49.387+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:48:49.386+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:48:49.388+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:48:49.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.047 seconds
+[2024-06-27T11:49:20.233+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:49:20.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:49:20.247+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:49:20.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:49:20.251+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:49:20.250+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:49:20.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:49:20.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.036 seconds
+[2024-06-27T11:49:50.974+0000] {processor.py:161} INFO - Started process (PID=1086) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:49:50.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:49:50.985+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:49:50.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:49:50.986+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:49:50.986+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:49:50.986+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:49:50.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.027 seconds
+[2024-06-27T11:50:21.754+0000] {processor.py:161} INFO - Started process (PID=1145) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:50:21.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:50:21.764+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:50:21.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:50:21.766+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:50:21.765+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:50:21.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:50:21.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.027 seconds
+[2024-06-27T11:50:52.585+0000] {processor.py:161} INFO - Started process (PID=1204) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:50:52.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:50:52.595+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:50:52.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:50:52.597+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:50:52.596+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:50:52.597+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:50:52.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.026 seconds
+[2024-06-27T11:51:23.428+0000] {processor.py:161} INFO - Started process (PID=1263) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:51:23.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:51:23.438+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:51:23.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:51:23.440+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:51:23.439+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:51:23.440+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:51:23.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.027 seconds
+[2024-06-27T11:51:54.239+0000] {processor.py:161} INFO - Started process (PID=1322) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:51:54.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:51:54.250+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:51:54.249+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:51:54.252+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:51:54.251+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:51:54.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:51:54.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.031 seconds
+[2024-06-27T11:52:25.050+0000] {processor.py:161} INFO - Started process (PID=1388) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:52:25.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:52:25.062+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:52:25.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:52:25.065+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:52:25.064+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:52:25.066+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:52:25.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.034 seconds
+[2024-06-27T11:52:55.867+0000] {processor.py:161} INFO - Started process (PID=1447) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:52:55.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:52:55.869+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:52:55.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:52:55.870+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:52:55.870+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:52:55.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:52:55.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.021 seconds
+[2024-06-27T11:53:26.708+0000] {processor.py:161} INFO - Started process (PID=1506) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:53:26.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:53:26.712+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:53:26.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:53:26.713+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:53:26.713+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:53:26.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:53:26.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.037 seconds
+[2024-06-27T11:53:57.588+0000] {processor.py:161} INFO - Started process (PID=1565) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:53:57.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:53:57.599+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:53:57.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:53:57.603+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:53:57.602+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:53:57.604+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:53:57.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.035 seconds
+[2024-06-27T11:54:28.441+0000] {processor.py:161} INFO - Started process (PID=1624) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:54:28.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:54:28.452+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:54:28.451+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:54:28.455+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:54:28.454+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:54:28.456+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:54:28.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.033 seconds
+[2024-06-27T11:54:59.234+0000] {processor.py:161} INFO - Started process (PID=1683) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:54:59.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:54:59.242+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:54:59.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:54:59.244+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:54:59.243+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:54:59.245+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:54:59.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.027 seconds
+[2024-06-27T11:55:30.102+0000] {processor.py:161} INFO - Started process (PID=1742) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:55:30.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:55:30.113+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:55:30.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:55:30.116+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:55:30.115+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:55:30.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:55:30.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.031 seconds
+[2024-06-27T11:56:00.890+0000] {processor.py:161} INFO - Started process (PID=1801) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:56:00.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:56:00.901+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:56:00.901+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:56:00.904+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:56:00.903+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:56:00.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:56:00.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.031 seconds
+[2024-06-27T11:56:31.903+0000] {processor.py:161} INFO - Started process (PID=1860) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:56:31.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:56:31.914+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:56:31.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:56:31.918+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:56:31.916+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:56:31.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:56:31.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.032 seconds
+[2024-06-27T11:57:02.444+0000] {processor.py:161} INFO - Started process (PID=1919) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:57:02.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:57:02.456+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:57:02.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:57:02.460+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:57:02.458+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:57:02.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:57:02.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.033 seconds
+[2024-06-27T11:57:33.343+0000] {processor.py:161} INFO - Started process (PID=1978) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:57:33.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:57:33.354+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:57:33.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:57:33.358+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:57:33.356+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:57:33.358+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:57:33.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.031 seconds
+[2024-06-27T11:58:04.097+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:58:04.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:58:04.108+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:58:04.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:58:04.111+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:58:04.110+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:58:04.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:58:04.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.032 seconds
+[2024-06-27T11:58:34.790+0000] {processor.py:161} INFO - Started process (PID=2096) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:58:34.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:58:34.801+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:58:34.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:58:34.805+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:58:34.803+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:58:34.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:58:34.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.035 seconds
+[2024-06-27T11:59:05.530+0000] {processor.py:161} INFO - Started process (PID=2155) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:59:05.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:59:05.542+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:59:05.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:59:05.544+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:59:05.543+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:59:05.544+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:59:05.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.029 seconds
+[2024-06-27T11:59:36.276+0000] {processor.py:161} INFO - Started process (PID=2214) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:59:36.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T11:59:36.287+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:59:36.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:59:36.291+0000] {logging_mixin.py:188} INFO - [2024-06-27T11:59:36.289+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T11:59:36.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T11:59:36.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.031 seconds
+[2024-06-27T12:00:07.000+0000] {processor.py:161} INFO - Started process (PID=2273) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:00:07.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T12:00:07.011+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:00:07.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:00:07.014+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:00:07.013+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T12:00:07.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:00:07.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.032 seconds
+[2024-06-27T12:00:37.737+0000] {processor.py:161} INFO - Started process (PID=2332) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:00:37.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T12:00:37.747+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:00:37.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:00:37.750+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:00:37.748+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T12:00:37.750+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:00:37.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.030 seconds
+[2024-06-27T12:01:08.477+0000] {processor.py:161} INFO - Started process (PID=2391) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:01:08.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T12:01:08.489+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:01:08.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:01:08.492+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:01:08.491+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T12:01:08.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:01:08.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.032 seconds
+[2024-06-27T12:01:39.438+0000] {processor.py:161} INFO - Started process (PID=2450) to work on /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:01:39.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-06-27T12:01:39.452+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:01:39.451+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:01:39.457+0000] {logging_mixin.py:188} INFO - [2024-06-27T12:01:39.455+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_dag.py", line 1
+    import datetime from datetime
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Did you mean to use 'from ... import ...' instead?
+[2024-06-27T12:01:39.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_dag.py
+[2024-06-27T12:01:39.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.047 seconds
